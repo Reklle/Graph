@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WGPU Renderer</title>
+</head>
+<body>
+    <canvas id="canvas" width="800" height="600" style="width: 800px; height: 600px;"></canvas>
+    <script>
+        console.log("Rust");
+    </script>
+    <script type="module">
+        import init from './pkg/graph.js';
+        async function run() {
+            await init();
+        }
+        run();
+    </script>
+</body>
+</html>
