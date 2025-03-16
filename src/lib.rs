@@ -1,6 +1,6 @@
 
 use wasm_bindgen::prelude::*;
-use web_sys::{DomRect, WebGl2RenderingContext, console}; // Исправлено ClientRect -> DomRect
+use web_sys::{DomRect, WebGl2RenderingContext, console};
 use wgpu::{Instance, SurfaceTarget, Surface, Adapter, Device, Queue, TextureFormat, ShaderModule, RenderPipeline, RenderPassDescriptor, RenderPassColorAttachment, Operations, LoadOp, StoreOp, Color};
 use wgpu::util::DeviceExt;
 use wasm_bindgen::prelude::*;
